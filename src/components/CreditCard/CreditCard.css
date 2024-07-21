@@ -1,0 +1,13 @@
+.card {
+	width: 350px;
+	height: 220px; 
+
+  .card-footer{
+    > p {
+      font-size: 12px;
+    }
+  }
+}
+
+
+

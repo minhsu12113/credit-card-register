@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	height: 100vh;
+	height: 100vh; 
+}
+
+:root {
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+	/* define gradient variable */
+	--bg-1: linear-gradient(
+		68.441deg,
+		#280537 0%,
+		#56034c 19%,
+		#890058 42%,
+		#bc005b 67%,
+		#eb1254 100%
+	);
+
+	--bg-2: linear-gradient(
+		68.441deg,
+		#215273 0%,
+		#359d9e 19%,
+		#55c595 42%,
+		#7be495 67%,
+		#cff4d1 100%
+	);
+
+	--bg-3: linear-gradient(
+		68.441deg,
+		#86e3ce 0%,
+		#d0e6a5 19%,
+		rgba(255, 221, 149, 89%) 42%,
+		rgba(252, 136, 123, 79%) 67%,
+		#ccabda 100%
+	);
+
+	--bg-4: linear-gradient(
+		68.441deg,
+		#fffbaf 0%,
+		#eac7bf 28%,
+		#d593ce 54%,
+		#c05ede 80%,
+		rgba(171, 42, 237, 82%) 100%
+	);
+
+	--bg-5: linear-gradient(
+		68.441deg,
+		#2b4584 0%,
+		#335b75 19%,
+		#3b7266 42%,
+		#428857 67%,
+		#4a9e48 100%
+	);
+
+	--bg-6: linear-gradient(
+		68.441deg,
+		#95f9c3 0%,
+		#73c9ac 19%,
+		#509995 42%,
+		#2e687d 67%,
+		#0b3866 100%
+	);
+
+	--bg-7: linear-gradient(
+		68.441deg,
+		#a106f4 0%,
+		#b306f6 19%,
+		#c407f7 42%,
+		#d607f9 67%,
+		#e707fa 100%
+	);
+
+	--bg-8: linear-gradient(
+		68.441deg,
+		#392d69 0%,
+		#58418a 19%,
+		#7754ac 42%,
+		#9668cd 67%,
+		#b57bee 100%
+	);
+
+	--bg-9: linear-gradient(
+		68.441deg,
+		#ffcb6b 0%,
+		#cfbb90 19%,
+		#9eabb5 42%,
+		#6e9bda 67%,
+		#3d8bff 100%
+	);
+
+	--bg-10: linear-gradient(
+		68.441deg,
+		#0974f1 0%,
+		#2f8af3 19%,
+		#54a0f6 42%,
+		#7ab6f8 67%,
+		#9fccfa 100%
+	);
+
+	--bg-11: linear-gradient(
+		68.441deg,
+		#010101 0%,
+		#3b1810 19%,
+		#752f1f 42%,
+		#af462d 67%,
+		#e95d3c 100%
+	);
+
+	--bg-12: linear-gradient(
+		68.441deg,
+		#ff1b6b 0%,
+		#d14790 19%,
+		#a273b5 42%,
+		#749eda 67%,
+		#45caff 100%
+	);
+}
+
+#root {
+	height: 100%;
+}
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
